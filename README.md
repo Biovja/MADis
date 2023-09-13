@@ -6,8 +6,8 @@ tested combination of genotype positions and phenotype is expressed by scoring. 
 combination of genotype positions and phenotype as potential CMs for the identified trait. The MADIS results are the tab-based 
 list of the best fitting genotype positions combination for the phenotype of interest with additional analysis information for 
 easier evaluation of the provided results. The MADIS python package consists of 2 major functions for the user to utilize. The first
-function import_vcf(file,gene_nam) enables to import of genotype data and transforms them into the genotype binary matrix used for MADIS
-scoring. The second main function make_score(geno,phen,N,d_score=d_score) produces the result table with the potential multiple CMs scores 
+function import_vcf( ) enables to import of genotype data and transforms them into the genotype binary matrix used for MADIS
+scoring. The second main function make_score( ) produces the result table with the potential multiple CMs scores 
 and additional information.
 
 The tool is developed in Python 3.8 programing language and utilizes the following Python packages: pandas(1.3.5, https://pandas.pydata.org/ accessible on 20.07.2023), 
