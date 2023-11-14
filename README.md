@@ -12,3 +12,9 @@ and additional information.
 
 The tool is developed in Python 3.8 programing language and utilizes the following Python packages: pandas(1.3.5, https://pandas.pydata.org/ accessible on 20.07.2023), 
 NumPy(2.21.5, https://numpy.org/ accessed on 20.07.2023) and itertools(3.11.4, https://docs.python.org/3/library/itertools.html accessed on 20.07.2023).
+
+
+## Phenotype and genotype selection
+The definition of what is the MUT and the WT phenotype, the same as for selecting the reference genotype, is an important part of the analysis set that decides on the result meaning.
+The WT phenotype represents the original phenotype from which the new MUT phenotype was developed in the evolution/breading process. The reference genotype represents the ancestral genotype from which the multiple CMs arose.
+
