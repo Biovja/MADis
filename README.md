@@ -18,3 +18,10 @@ NumPy(2.21.5, https://numpy.org/ accessed on 20.07.2023) and itertools(3.11.4, h
 The definition of what is the MUT and the WT phenotype, the same as for selecting the reference genotype, is an important part of the analysis set that decides on the result meaning.
 The WT phenotype represents the original phenotype from which the new MUT phenotype was developed in the evolution/breading process. The reference genotype represents the ancestral genotype from which the multiple CMs arose.
 
+## The MADis calculation
+The MADis score for candidate multiple CMs is a sum of individual sample scores determined by TABLE 1.
+TABLE 1 Individual sample score matrix for the combination of variant positions. The individual score is calculated for every sample and is determined by the number of all Alt allele genotypes for WT and MUT phenotypes of a sample.
+
+
+
+
