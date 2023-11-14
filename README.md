@@ -20,6 +20,7 @@ The WT phenotype represents the original phenotype from which the new MUT phenot
 
 ## The MADis calculation
 The MADis score for candidate multiple CMs is a sum of individual sample scores determined by TABLE 1.
+
 TABLE 1 Individual sample score matrix for the combination of variant positions. The individual score is calculated for every sample and is determined by the number of all Alt allele genotypes for WT and MUT phenotypes of a sample.
 
 
