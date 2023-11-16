@@ -21,9 +21,8 @@ The WT phenotype represents the original phenotype from which the new MUT phenot
 ## The MADis calculation
 The MADis score for candidate multiple CMs is a sum of individual sample scores determined by TABLE 1.
 
-TABLE 1 Individual sample score matrix for the combination of variant positions. The individual score is calculated for every sample and is determined by the number of all Alt allele genotypes for WT and MUT phenotypes of a sample.
+**TABLE 1 Individual sample score matrix for the combination of variant positions.** The individual score is calculated for every sample and is determined by the number of all Alt allele genotypes for WT and MUT phenotypes of a sample.
 | Count of variant positions with Alt allele genotypes in the tested combination for an individual sample | Score of an individual sample with WT phenotype | Score of an individual sample with MUT phenotype |
-| :---: | :---: | :---: |
 | :---: | :---: | :---: |
 | 0 | 1 | -1 | 
 | 1 | -1 | 1 |
@@ -33,4 +32,8 @@ TABLE 1 Individual sample score matrix for the combination of variant positions.
 | 5 | -15 | -15 |
 | 6 | -21 | -21 |
 | 7 | -28 | -28 |
+
+![My Image](MADis_calculation.png)
+**The scheme of MADis sample score (ssc) assignment**. **A**, a simplified scheme of a gene with Alt alleles where red mutations are the CMs and the pink mutations are alleles without any effect on observed phenotype. **B, C,** Samples S1-S7 in blue have WT phenotype, and samples S8-S10 in red have MUT phenotype). The Ref column represents the ancestral reference genotype with WT phenotype. The rows are variant positions in a tested combination of an example data set. The grey row shows the sample score (ssc) values for individual samples. The MADis score is the sum of sample scores, where the MADis score for A is the maximal MADis score for this data set for the combination of three variant positions and thus, is considered as the best multiple CM candidate in comparison to the combination in **B**.
+
 
