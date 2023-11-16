@@ -23,7 +23,8 @@ The MADis score for candidate multiple CMs is a sum of individual sample scores 
 
 TABLE 1 Individual sample score matrix for the combination of variant positions. The individual score is calculated for every sample and is determined by the number of all Alt allele genotypes for WT and MUT phenotypes of a sample.
 | Count of variant positions with Alt allele genotypes in the tested combination for an individual sample | Score of an individual sample with WT phenotype | Score of an individual sample with MUT phenotype |
-| :---: | :---: | :---: | 
+| :---: | :---: | :---: |
+| :---: | :---: | :---: |
 | 0 | 1 | -1 | 
 | 1 | -1 | 1 |
 | 2 | -3 | -3 |
